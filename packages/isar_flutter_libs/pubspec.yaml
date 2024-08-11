@@ -15,7 +15,7 @@ dependencies:
   isar: 
     git:
       url: https://github.com/coolight7/isar
-      path: isar
+      path: packages/isar
 
 flutter:
   plugin:
