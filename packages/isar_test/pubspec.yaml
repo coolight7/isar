@@ -14,11 +14,13 @@ dependencies:
     sdk: flutter
   intl: ^0.19.0
   isar: 
-    version: any
-    hosted: https://pub.isar-community.dev
+    git:
+      url: https://github.com/coolight7/isar
+      path: packages/isar
   isar_flutter_libs: 
-    version: any
-    hosted: https://pub.isar-community.dev
+    git:
+      url: https://github.com/coolight7/isar
+      path: packages/isar_flutter_libs
   json_annotation: ^4.7.0
   meta: ^1.8.0
   path: ^1.8.2

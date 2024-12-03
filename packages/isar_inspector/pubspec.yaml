@@ -16,7 +16,9 @@ dependencies:
   go_router: ^5.0.0
   google_fonts: 6.1.0
   isar:
-    path: ../isar
+    git:
+      url: https://github.com/coolight7/isar
+      path: packages/isar
   vm_service: ^11.0.0
   web_socket_channel: ^2.2.0
 
